@@ -1,0 +1,32 @@
+name: Generate PDF
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Dependencies
+        run: sudo apt-get update && sudo apt-get install -y context luarocks pandoc
+
+      - name: Install LuaSocket
+        run: sudo luarocks install luasocket && luarocks --version && luarocks list
+
+      - name: Convert Markdown to TeX
+        run: pandoc --standalone --template=assets/vendor/style.tex --from=markdown --to=context -V papersize=A4 -o resume.tex resume.md
+
+      - name: Compile TeX to PDF
+        run: context resume.tex
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: Resume PDF
+          path: resume.pdf
