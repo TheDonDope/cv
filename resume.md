@@ -1,39 +1,48 @@
-Christian Dobert <img style="float: right; box-shadow: 0px 2px 4px rgba(0,0,0,0.18); width: 200px" src="assets/photo.jpg">
-============
+# Christian Dobert <img style="float: right; box-shadow: 0px 2px 4px rgba(0,0,0,0.18); width: 200px" src="assets/photo.jpg">
 
-Persönliche Daten
----------
+## Persönliche Daten
 
 **Geboren**
-:   10.03.1987
+: 10.03.1987
 
 **Geburtsort**
-:   Wippra
+: Wippra
 
 **Familienstand**
-:   geschieden
+: geschieden
 
 **Nationalität**
-:   deutsch
+: deutsch
 
-Schulbildung
----------
+## Schulbildung
 
 2000 - 2006
-:   **Allgemeine Hochschulreife**; Geschwister Scholl Gymnasium (Sangerhausen)
+: **Allgemeine Hochschulreife**; Geschwister Scholl Gymnasium (Sangerhausen)
 
-Ausbildung
-----------
+## Ausbildung
 
 September 2006 - Juni 2009
-:   **Ausbildung zum Fachinformatiker Anwendungsentwicklung**; IT-Systemhaus der Bundesagentur für Arbeit (Nürnberg)
+: **Ausbildung zum Fachinformatiker Anwendungsentwicklung**; IT-Systemhaus der Bundesagentur für Arbeit (Nürnberg)
 
-Berufserfahrung
-----------
+## Berufserfahrung
 
-**Senior Consultant Java, Clear Group Erlangen**
+**Berufliche Neuorientierung, arbeitssuchend**
 
-*Seit Juni 2019*
+_Seit Mai 2024_
+
+**Lead Entwickler Online Services (Fullstack), ALTEN Group**
+
+_Seit Mai 2023_
+
+Im Mai 2023 fand ein Projektwechsel in eine neue Abteilung des IT-Systemhaus der Bundesagentur für Arbeit statt, welche für die Fachverfahren Ausländerkerndatensystem (AKDS) und X-AUSLÄNDER verantwortlich ist. Diese Fachverfahren bieten Schnittstellen zum Ausländerzentralregister (AZR) um Daten zu Integrationsmassnahmen wie z.B. Deutschkursen auszutauschen.
+
+Die technische Aufgabenstellung war auch hierbei im Zuge der Gesamtumstellung der IT-Systeme der BA auf Containerplattform zu unterstützen. Technologisch wurden hierbei Apache Kafka, Java, Docker und Kubernetes eingesetzt. Auf Frontendseite kam Angular zum Einsatz. Die CI/CD Pipeline wurde mit GitHub Enterprise und GitHub Actions realisiert.
+
+Neben den technischen Tätigkeiten war ein weiteres Arbeitsfeld für mich die Konzeptarbeit im Security Bereich, welche als nichtfunktionale Anforderungen vor Produktivsetzung erfüllt werden mussten.
+
+**Senior Consultant Java, ALTEN Group**
+
+_Seit Juni 2019_
 
 Nach Abschluss des Projekts APOLLO erfolgte der nahtlose Übergang zum Nachfolgeprojekt OPO (Online Programm Organisation). Dieses fasst alle aus dem Vorgängerprojekt entstandenen Onlineprodukte des Bereiches eGovernment im Kundenkanal der BA zusammen. Ich arbeite hierbei im Team LEONARDO, welches die Verantwortung für die folgenden Produkte hat:
 
@@ -51,7 +60,7 @@ Im Team übernehme ich dabei nachfolgende Tätigkeiten:
 - Betreuung und Deployment des containerisierten Kundenbescheide Produkts (via Jenkins, Docker, DC/OS)
 - Überwachung des Produktionsbetriebs des containerisierten Kundenbescheide Produkts (via Kibana)
 
-*Seit Oktober 2018*
+_Seit Oktober 2018_
 
 Seit Oktober 2018 unterstütze ich im IT-Systemhaus der Bundesagentur für Arbeit bei der Umsetzung der Online Kunden Kanäle.
 
@@ -59,157 +68,149 @@ Neben der Frontendentwicklung verschiedener Antragsstrecken (Berufsausbildungsbe
 
 In diesem agilen Projektumfeld verantworten wir ebenso den teamübergreifenden Lieferprozess für das Portal Lieferpaket.
 
-**Lead Consultant Java, Clear Group Erlangen**
+**Lead Consultant Java, ALTEN Group**
 
-*November 2016 - September 2018*
+_November 2016 - September 2018_
 
 Neben meinem Einsatz in Kundenprojekten, speziell im öffentlichen Dienst, bin ich seit September 2016 Fachausbilder für die Ausbildung zum Fachinformatiker Anwendungsentwicklung.
 
 Beginnend mit dem Ausbildungsjahr 2006 befinden sich derzeit drei Auszubildende im ersten Lehrjahr der Ausbildung. Besonderen Wert legen wir auf die Vermittlung aktuellster Technologiethemen um einen bestmöglichen Start in das Berufsleben zu bieten.
 
-Zusätzlich dazu arbeite ich mich seit über einem Jahr in das Webframework [Angular](https://angular.io/) ein, welches ich schon in einigen Projekten zum Einsatz bringen konnte. In Verbindung mit dem Einsatz von Docker wage ich den Blick über den typischen Softwareentwickler Tellerrand und erprobe für mich auch das DevOps Gebiet. 
+Zusätzlich dazu arbeite ich mich seit über einem Jahr in das Webframework [Angular](https://angular.io/) ein, welches ich schon in einigen Projekten zum Einsatz bringen konnte. In Verbindung mit dem Einsatz von Docker wage ich den Blick über den typischen Softwareentwickler Tellerrand und erprobe für mich auch das DevOps Gebiet.
 
 Meine eigenen Lernerfolge teile ich gern und unterstütze aktiv in Open Source Projekten. Eine Auswahl meiner Aktivitäten finden sie im Abschnitt [Open Source](#open-source).
 
-**Java Enterprise Entwickler, Clear Group Erlangen**
+**Java Enterprise Entwickler, ALTEN Group**
 
-*Januar 2014 - Oktober 2016*
+_Januar 2014 - Oktober 2016_
 
 Mit meinem Wechsel in die freie Wirtschaft ging nicht nur ein einfacher Arbeitgeber-, sondern auch ein Kulturwechsel einher. Als Consultant entwickelte ich vor Ort im Kundenprojekt Software für einen der wichtigsten Sozialversicherungsträger. Dem Begriff "Consultant" sollte auch Rechnung getragen werden, und so gehörten zu meinen Tätigkeiten nicht nur reine Softwareentwicklung. Architekturentwürfe, Design-Spezifikationen, Einarbeitung neuer Mitarbeiter, Wissensvermittlung und Teamleitung gehörten seither zu meinem Tätigkeitsfeld.
 
 **IT-Techniker Design & Implementierung, IT-Systemhaus der Bundesagentur für Arbeit, Nürnberg**
 
-*August 2011 - Dezember 2013*
+_August 2011 - Dezember 2013_
 
 Auch der öffentliche Dienst kann sich nicht völlig von der Außenwelt abschotten, und so ereilte sich auch bei der Bundesagentur für Arbeit der Zeitpunkt bei welchem das Client-Betriebssystem Windows XP erneuert werden musste. Die Migration zu Windows 7 lief über einen mehrphasigen und mehrjährigen Prozess, bei welchem eine Vielzahl von Herausforderungen bewältigt werden mussten. Ein überarbeitetes Benutzer und Berechtigungskonzept, neue Ordnerstrukturen, strengere Sicherheitsrichtlinien; all diese und noch viel mehr Themen hatten direkten oder indirekten Einfluss auf die Entwicklung des Java Swing Clients der Allgemeinen Terminverwaltung.
 Nach langer Entwicklungszeit, vielen gefällten Architekturentscheidungen und Lösungsentwürfen, konnte die Migration erfolgreich und termingerecht fertiggestellt werden.
 
 **IT-Fachassistent Design & Implementierung, IT-Systemhaus der Bundesagentur für Arbeit, Nürnberg**
 
-*Juli 2009 - Juli 2011*
+_Juli 2009 - Juli 2011_
 
 Nach dem erfolgreichen Abschluss meiner Ausbildung zum Fachinformatiker Anwendungsentwicklung begann ich meinen Berufsweg im Verfahren Allgemeine Terminverwaltung (ATV). Mit einer Nutzerzahl von 30.000 täglichen parallelen Nutzern, hunderttausenden vereinbarten Terminen und einem Einladungsdruckvolumen von über einer Millionen Briefen pro Monat war dies eines der elementaren Basisverfahren der Bundesagentur für Arbeit.
 
 In meinem Tätigkeitsfeld war ich Alleinverantwortlich für die Weiterentwicklung und Instandhaltung des Java Swing Clients, welcher eine Vielzahl von JGoodies Bibliotheken nutzt. Neben dem Design von Oberflächen und deren Implementierung, unterstützte ich unsere Tester bei der Testautomatisierung per Silk Test, stellte eine barrierefreie Umsetzung der Software sicher und bearbeitete Incidents von Anwendern im Second Level Support.
 
-Qualifikationen
----------
+## Qualifikationen
 
 **Oracle Certified Associate, Java SE 8 Programmer**
 
-*Juli 2016*
+_Juli 2016_
 
-* [Zertifikat Link](https://www.youracclaim.com/badges/9fd343c0-b445-4663-815e-5356c5c82f27/linked_in_profile)
+- [Zertifikat Link](https://www.youracclaim.com/badges/9fd343c0-b445-4663-815e-5356c5c82f27/linked_in_profile)
 
 **Professional Scrum Master I (scrum.org)**
 
-*Oktober 2014*
+_Oktober 2014_
 
-* License 88699
+- License 88699
 
-* [Zertifikat Link](https://www.scrum.org/user/159323)
+- [Zertifikat Link](https://www.scrum.org/user/159323)
 
-Open Source
----------
+## Open Source
 
-* Eigene Projekte:
+- [Arctic Code Vault Contributor](https://archiveprogram.github.com/):
 
-    * [https://github.com/TheDonDope/crudular](https://github.com/TheDonDope/crudular)
-        * An Angular CRUD example application using JWT and consuming a JSON API
+  - Mitarbeit an mehreren Angular Seed Projekten <https://github.com/TheDonDope?achievement=arctic-code-vault-contributor&tab=achievements>
 
-    * [https://github.com/TheDonDope/gologrest](https://github.com/TheDonDope/gologrest)
-        * A REST API written in go, integrating logging with an ELK stack with docker.
+- Eigene Projekte:
 
-    * [https://github.com/TheDonDope/dotgo](https://github.com/TheDonDope/dotgo)
-        * A tool to import and export your dotfiles with ease - written in go.
+  - [https://github.com/TheDonDope/crudular](https://github.com/TheDonDope/crudular)
 
-    * [https://github.com/TheDonDope/resume](https://github.com/TheDonDope/resume)
-        * My personal curriculum vitae
-        * [https://thedondope.github.io/resume/](https://thedondope.github.io/resume/)
+    - An Angular CRUD example application using JWT and consuming a JSON API
 
-* Forks:
+  - [https://github.com/TheDonDope/gordle](https://github.com/TheDonDope/gordle)
 
-    * [https://github.com/TheDonDope/pandoc_resume](https://github.com/TheDonDope/pandoc_resume)
-        * The Markdown Resume
-        * In meinem Fork habe ich Docker integriert
+    - A golang TUI implementation of the popular word quiz wordle!
 
+  - [https://github.com/TheDonDope/cv](https://github.com/TheDonDope/cv)
+    - My personal curriculum vitae
 
-Kenntnisse und Hobbys
----------
+## Kenntnisse und Hobbys
 
-* Sprachkenntnisse:
+- Sprachkenntnisse:
 
-     * Deutsch (Muttersprache)
-     * English (Verhandlungssicher)
-     * Russisch (Grundkenntnisse)
+  - Deutsch (Muttersprache)
+  - English (Verhandlungssicher)
+  - Russisch (Grundkenntnisse)
 
-* Führerscheine:
+- Führerscheine:
 
-     * B
+  - B
 
-* Softwarekenntnisse:
+- Softwarekenntnisse:
 
-     * Microsoft Office Suite
-     * verschiedenste IDEs ([Eclipse](http://www.eclipse.org/), [IntelliJ](https://www.jetbrains.com/idea/), [Webstorm](https://www.jetbrains.com/webstorm/))
-     * verschiedenste Editoren ([Sublime Text](https://www.sublimetext.com/), [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/))
-     * [Innovator](http://www.mid.de/en/business-activities/tools/innovator)
-     * [Star UML](http://staruml.io/)
+  - Microsoft Office Suite
+  - verschiedenste IDEs ([Eclipse](http://www.eclipse.org/), [IntelliJ](https://www.jetbrains.com/idea/), [Webstorm](https://www.jetbrains.com/webstorm/))
+  - verschiedenste Editoren ([Sublime Text](https://www.sublimetext.com/), [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/))
+  - [Innovator](http://www.mid.de/en/business-activities/tools/innovator)
+  - [Star UML](http://staruml.io/)
 
-* Entwicklungswerkzeuge:
- 
-     * [Docker](https://www.docker.com/)
-     * [NodeJS](https://nodejs.org/en/)
-     * [nginx](https://nginx.org/en/)
-     * [Express](https://expressjs.com/)
-     * [PostgreSQL](https://www.postgresql.org/)
-     * [MongoDB](https://www.mongodb.com/)
+- Entwicklungswerkzeuge:
 
-* Programmiersprachen:
+  - [Docker](https://www.docker.com/)
+  - [NodeJS](https://nodejs.org/en/)
+  - [nginx](https://nginx.org/en/)
+  - [Express](https://expressjs.com/)
+  - [PostgreSQL](https://www.postgresql.org/)
+  - [MongoDB](https://www.mongodb.com/)
 
-     * <p>Java</p>
-     <div class="container">
-       <div class="skills java">90%</div>
-     </div>
+- Programmiersprachen:
 
-     * <p>Go</p>
-     <div class="container">
-      <div class="skills go">80%</div>
-     </div>
+  - <p>Java</p>
+    <div class="container">
+      <div class="skills java">90%</div>
+    </div>
 
-    * <p>Typescript</p>
+  - <p>Go</p>
+    <div class="container">
+     <div class="skills go">80%</div>
+    </div>
+
+  - <p>Typescript</p>
     <div class="container">
       <div class="skills typescript">80%</div>
     </div>
 
-    * <p>HTML5</p>
+  - <p>HTML5</p>
     <div class="container">
       <div class="skills html5">80%</div>
     </div>
 
-    * <p>CSS3</p>
+  - <p>CSS3</p>
     <div class="container">
       <div class="skills css3">80%</div>
     </div>
 
-    * <p>Ruby</p>
+  - <p>Ruby</p>
     <div class="container">
       <div class="skills ruby">70%</div>
     </div>
 
-    * <p>Python</p>
+  - <p>Python</p>
     <div class="container">
       <div class="skills python">60%</div>
     </div>
 
-* Hobbys:
+- Hobbys:
 
-     * [Musikproduktion](https://soundcloud.com/thedondope)
-     * Open Source Entwicklung:
-          * [GitHub](https://github.com/TheDonDope)
-          * [GitLab](https://gitlab.com/TheDonDope)
-     * Bouldern
+  - [Musikproduktion](https://soundcloud.com/thedondope)
+  - Open Source Entwicklung:
+    - [GitHub](https://github.com/TheDonDope)
+    - [GitLab](https://gitlab.com/TheDonDope)
+  - Bouldern
 
-----
+---
 
-> <chr.dobert@gmail.com> • +49 176 70784300 • 32 Jahre\
+> <chr.dobert@gmail.com> • +49 176 70784300 • 37 Jahre\
 > Bernstädter Strasse 9, 90473 Nürnberg

@@ -1,0 +1,467 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+%
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+%
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]
+  \setupcolors[state=start]
+\stopmode
+%\mainlanguage[de]
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\startsectionlevel[title={Christian Dobert
+},reference={christian-dobert}]
+
+\startsectionlevel[title={Persönliche
+Daten},reference={persönliche-daten}]
+
+\startdescription{{\bf Geboren}}
+  10.03.1987
+\stopdescription
+
+\startdescription{{\bf Geburtsort}}
+  Wippra
+\stopdescription
+
+\startdescription{{\bf Familienstand}}
+  geschieden
+\stopdescription
+
+\startdescription{{\bf Nationalität}}
+  deutsch
+\stopdescription
+
+\stopsectionlevel
+
+\startsectionlevel[title={Schulbildung},reference={schulbildung}]
+
+\startdescription{2000 - 2006}
+  {\bf Allgemeine Hochschulreife}; Geschwister Scholl Gymnasium
+  (Sangerhausen)
+\stopdescription
+
+\stopsectionlevel
+
+\startsectionlevel[title={Ausbildung},reference={ausbildung}]
+
+\startdescription{September 2006 - Juni 2009}
+  {\bf Ausbildung zum Fachinformatiker Anwendungsentwicklung};
+  IT-Systemhaus der Bundesagentur für Arbeit (Nürnberg)
+\stopdescription
+
+\stopsectionlevel
+
+\startsectionlevel[title={Berufserfahrung},reference={berufserfahrung}]
+
+{\bf Lead Entwickler Online Services (Fullstack), ALTEN Group}
+
+{\em Seit Mai 2023}
+
+Im Mai 2023 fand ein Projektwechsel in eine neue Abteilung im
+IT-Systemhaus der Bundesagentur für Arbeit statt, welches für die
+Fachverfahren Ausländerkerndatensystem (AKDS) und X-AUSLÄNDER
+verantwortlich ist. Diese Fachverfahren bieten Schnittstellen zum
+Ausländerzentralregister (AZR) um Daten zu Integrationsmassnahmen wie
+z.B. Deutschkursen auszutauschen.
+
+Die technische Aufgabenstellung war auch hierbei im Zuge der
+Gesamtumstellung der IT-Systeme der BA auf Containerplattform zu
+unterstützen. Technologisch wurden hierbei Apache Kafka, Java, Docker
+und Kubernetes eingesetzt. Auf Frontendseite kam Angular zum Einsatz.
+Die CI/CD Pipeline wurde mit GitHub Enterprise und GitHub Actions
+realisiert.
+
+Neben den technischen Tätigkeiten war ein weiteres Arbeitsfeld für mich
+die Konzeptarbeit im Security Bereich, welche als nichtfunktionale
+Anforderungen vor Produktivsetzung erfüllt werden mussten.
+
+{\bf Senior Consultant Java, ALTEN Group}
+
+{\em Seit Juni 2019}
+
+Nach Abschluss des Projekts APOLLO erfolgte der nahtlose Übergang zum
+Nachfolgeprojekt OPO (Online Programm Organisation). Dieses fasst alle
+aus dem Vorgängerprojekt entstandenen Onlineprodukte des Bereiches
+eGovernment im Kundenkanal der BA zusammen. Ich arbeite hierbei im Team
+LEONARDO, welches die Verantwortung für die folgenden Produkte hat:
+
+\startitemize[packed]
+\item
+  Berufsausbildungsbeihilfe
+\item
+  Kundenbescheide
+\item
+  Veränderungsmitteilungen
+\item
+  Kurzarbeitergeld
+\stopitemize
+
+Das Hauptaufgabenfeld des Teams liegt dabei in der technischen
+Überführung der Produkte von der alten ADF und Oracle Weblogic
+Technologie hin zur Containerplattform auf Basis von DC/OS und Docker.
+Hierbei werden die Produkte in Angular als Frontend- und Spring Boot als
+Backendtechnologie implementiert. Im Team übernehme ich dabei
+nachfolgende Tätigkeiten:
+
+\startitemize[packed]
+\item
+  Frontendentwicklung mit Angular
+\item
+  Backendentwicklung mit Spring Boot
+\item
+  IT-Sicherheitsverantwortlicher des Teams, hierbei Auswertung von
+  NexusIQ Reports, Planung und Behebung von auftretenden
+  Sicherheitslücken
+\item
+  Betreuung und Deployment des containerisierten Kundenbescheide
+  Produkts (via Jenkins, Docker, DC/OS)
+\item
+  Überwachung des Produktionsbetriebs des containerisierten
+  Kundenbescheide Produkts (via Kibana)
+\stopitemize
+
+{\em Seit Oktober 2018}
+
+Seit Oktober 2018 unterstütze ich im IT-Systemhaus der Bundesagentur für
+Arbeit bei der Umsetzung der Online Kunden Kanäle.
+
+Neben der Frontendentwicklung verschiedener Antragsstrecken
+(Berufsausbildungsbeihilfe, Kurzarbeitergeld, Insolvenzgeld),
+Veränderungsmitteilungen und Kundenbescheide liegt der aktuelle Fokus
+auf der Containerisierung verschiedener Module mit Docker und DC/OS.
+Zusätzlich nehme ich die Aufgabe des Team IT-Sicherheitsverantwortlichen
+wahr.
+
+In diesem agilen Projektumfeld verantworten wir ebenso den
+teamübergreifenden Lieferprozess für das Portal Lieferpaket.
+
+{\bf Lead Consultant Java, ALTEN Group}
+
+{\em November 2016 - September 2018}
+
+Neben meinem Einsatz in Kundenprojekten, speziell im öffentlichen
+Dienst, bin ich seit September 2016 Fachausbilder für die Ausbildung zum
+Fachinformatiker Anwendungsentwicklung.
+
+Beginnend mit dem Ausbildungsjahr 2006 befinden sich derzeit drei
+Auszubildende im ersten Lehrjahr der Ausbildung. Besonderen Wert legen
+wir auf die Vermittlung aktuellster Technologiethemen um einen
+bestmöglichen Start in das Berufsleben zu bieten.
+
+Zusätzlich dazu arbeite ich mich seit über einem Jahr in das
+Webframework \goto{Angular}[url(https://angular.io/)] ein, welches ich
+schon in einigen Projekten zum Einsatz bringen konnte. In Verbindung mit
+dem Einsatz von Docker wage ich den Blick über den typischen
+Softwareentwickler Tellerrand und erprobe für mich auch das DevOps
+Gebiet.
+
+Meine eigenen Lernerfolge teile ich gern und unterstütze aktiv in Open
+Source Projekten. Eine Auswahl meiner Aktivitäten finden sie im
+Abschnitt \goto{Open Source}[open-source].
+
+{\bf Java Enterprise Entwickler, ALTEN Group}
+
+{\em Januar 2014 - Oktober 2016}
+
+Mit meinem Wechsel in die freie Wirtschaft ging nicht nur ein einfacher
+Arbeitgeber-, sondern auch ein Kulturwechsel einher. Als Consultant
+entwickelte ich vor Ort im Kundenprojekt Software für einen der
+wichtigsten Sozialversicherungsträger. Dem Begriff
+\quotation{Consultant} sollte auch Rechnung getragen werden, und so
+gehörten zu meinen Tätigkeiten nicht nur reine Softwareentwicklung.
+Architekturentwürfe, Design-Spezifikationen, Einarbeitung neuer
+Mitarbeiter, Wissensvermittlung und Teamleitung gehörten seither zu
+meinem Tätigkeitsfeld.
+
+{\bf IT-Techniker Design & Implementierung, IT-Systemhaus der
+Bundesagentur für Arbeit, Nürnberg}
+
+{\em August 2011 - Dezember 2013}
+
+Auch der öffentliche Dienst kann sich nicht völlig von der Außenwelt
+abschotten, und so ereilte sich auch bei der Bundesagentur für Arbeit
+der Zeitpunkt bei welchem das Client-Betriebssystem Windows XP erneuert
+werden musste. Die Migration zu Windows 7 lief über einen mehrphasigen
+und mehrjährigen Prozess, bei welchem eine Vielzahl von
+Herausforderungen bewältigt werden mussten. Ein überarbeitetes Benutzer
+und Berechtigungskonzept, neue Ordnerstrukturen, strengere
+Sicherheitsrichtlinien; all diese und noch viel mehr Themen hatten
+direkten oder indirekten Einfluss auf die Entwicklung des Java Swing
+Clients der Allgemeinen Terminverwaltung. Nach langer Entwicklungszeit,
+vielen gefällten Architekturentscheidungen und Lösungsentwürfen, konnte
+die Migration erfolgreich und termingerecht fertiggestellt werden.
+
+{\bf IT-Fachassistent Design & Implementierung, IT-Systemhaus der
+Bundesagentur für Arbeit, Nürnberg}
+
+{\em Juli 2009 - Juli 2011}
+
+Nach dem erfolgreichen Abschluss meiner Ausbildung zum Fachinformatiker
+Anwendungsentwicklung begann ich meinen Berufsweg im Verfahren
+Allgemeine Terminverwaltung (ATV). Mit einer Nutzerzahl von 30.000
+täglichen parallelen Nutzern, hunderttausenden vereinbarten Terminen und
+einem Einladungsdruckvolumen von über einer Millionen Briefen pro Monat
+war dies eines der elementaren Basisverfahren der Bundesagentur für
+Arbeit.
+
+In meinem Tätigkeitsfeld war ich Alleinverantwortlich für die
+Weiterentwicklung und Instandhaltung des Java Swing Clients, welcher
+eine Vielzahl von JGoodies Bibliotheken nutzt. Neben dem Design von
+Oberflächen und deren Implementierung, unterstützte ich unsere Tester
+bei der Testautomatisierung per Silk Test, stellte eine barrierefreie
+Umsetzung der Software sicher und bearbeitete Incidents von Anwendern im
+Second Level Support.
+
+\stopsectionlevel
+
+\startsectionlevel[title={Qualifikationen},reference={qualifikationen}]
+
+{\bf Oracle Certified Associate, Java SE 8 Programmer}
+
+{\em Juli 2016}
+
+\startitemize[packed]
+\item
+  \goto{Zertifikat
+  Link}[url(https://www.youracclaim.com/badges/9fd343c0-b445-4663-815e-5356c5c82f27/linked_in_profile)]
+\stopitemize
+
+{\bf Professional Scrum Master I (scrum.org)}
+
+{\em Oktober 2014}
+
+\startitemize
+\item
+  License 88699
+\item
+  \goto{Zertifikat Link}[url(https://www.scrum.org/user/159323)]
+\stopitemize
+
+\stopsectionlevel
+
+\startsectionlevel[title={Open Source},reference={open-source}]
+
+\startitemize
+\item
+  \goto{Arctic Code Vault
+  Contributor}[url(https://archiveprogram.github.com/)]:
+
+  \startitemize[packed]
+  \item
+    Mitarbeit an mehreren Angular Seed Projekten
+    (https://github.com/TheDonDope?achievement=arctic-code-vault-contributor&tab=achievements)
+  \stopitemize
+\item
+  Eigene Projekte:
+
+  \startitemize
+  \item
+    \useURL[url1][https://github.com/TheDonDope/crudular]\from[url1]
+
+    \startitemize[packed]
+    \item
+      An Angular CRUD example application using JWT and consuming a JSON
+      API
+    \stopitemize
+  \item
+    \useURL[url2][https://github.com/TheDonDope/gordle]\from[url2]
+
+    \startitemize[packed]
+    \item
+      A golang TUI implementation of the popular word quiz wordle!
+    \stopitemize
+  \item
+    \useURL[url3][https://github.com/TheDonDope/cv]\from[url3]
+
+    \startitemize[packed]
+    \item
+      My personal curriculum vitae
+    \stopitemize
+  \stopitemize
+\stopitemize
+
+\stopsectionlevel
+
+\startsectionlevel[title={Kenntnisse und
+Hobbys},reference={kenntnisse-und-hobbys}]
+
+\startitemize
+\item
+  Sprachkenntnisse:
+
+  \startitemize[packed]
+  \item
+    Deutsch (Muttersprache)
+  \item
+    English (Verhandlungssicher)
+  \item
+    Russisch (Grundkenntnisse)
+  \stopitemize
+\item
+  Führerscheine:
+
+  \startitemize[packed]
+  \item
+    B
+  \stopitemize
+\item
+  Softwarekenntnisse:
+
+  \startitemize[packed]
+  \item
+    Microsoft Office Suite
+  \item
+    verschiedenste IDEs (\goto{Eclipse}[url(http://www.eclipse.org/)],
+    \goto{IntelliJ}[url(https://www.jetbrains.com/idea/)],
+    \goto{Webstorm}[url(https://www.jetbrains.com/webstorm/)])
+  \item
+    verschiedenste Editoren (\goto{Sublime
+    Text}[url(https://www.sublimetext.com/)],
+    \goto{Atom}[url(https://atom.io/)], \goto{Visual Studio
+    Code}[url(https://code.visualstudio.com/)])
+  \item
+    \goto{Innovator}[url(http://www.mid.de/en/business-activities/tools/innovator)]
+  \item
+    \goto{Star UML}[url(http://staruml.io/)]
+  \stopitemize
+\item
+  Entwicklungswerkzeuge:
+
+  \startitemize[packed]
+  \item
+    \goto{Docker}[url(https://www.docker.com/)]
+  \item
+    \goto{NodeJS}[url(https://nodejs.org/en/)]
+  \item
+    \goto{nginx}[url(https://nginx.org/en/)]
+  \item
+    \goto{Express}[url(https://expressjs.com/)]
+  \item
+    \goto{PostgreSQL}[url(https://www.postgresql.org/)]
+  \item
+    \goto{MongoDB}[url(https://www.mongodb.com/)]
+  \stopitemize
+\item
+  Programmiersprachen:
+
+  \startitemize
+  \item
+    Java
+
+    90\letterpercent{}
+  \item
+    Go
+
+    80\letterpercent{}
+  \item
+    Typescript
+
+    80\letterpercent{}
+  \item
+    HTML5
+
+    80\letterpercent{}
+  \item
+    CSS3
+
+    80\letterpercent{}
+  \item
+    Ruby
+
+    70\letterpercent{}
+  \item
+    Python
+
+    60\letterpercent{}
+  \stopitemize
+\item
+  Hobbys:
+
+  \startitemize[packed]
+  \item
+    \goto{Musikproduktion}[url(https://soundcloud.com/thedondope)]
+  \item
+    Open Source Entwicklung:
+    \startitemize[packed]
+    \item
+      \goto{GitHub}[url(https://github.com/TheDonDope)]
+    \item
+      \goto{GitLab}[url(https://gitlab.com/TheDonDope)]
+    \stopitemize
+  \item
+    Bouldern
+  \stopitemize
+\stopitemize
+
+\thinrule
+
+\startblockquote
+\goto{chr.dobert@gmail.com}[url(mailto:chr.dobert@gmail.com)] • +49 176
+70784300 • 37 Jahre\crlf
+Bernstädter Strasse 9, 90473 Nürnberg
+\stopblockquote
+
+\stopsectionlevel
+
+\stopsectionlevel
+
+\stoptext
